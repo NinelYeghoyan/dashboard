@@ -1,0 +1,109 @@
+@import "breakpoint";
+
+.static {
+    position: static;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
+}
+
+@media only screen and (min-width: $breakpoints-sm) {
+    .sm-static {
+        position: static;
+    }
+
+    .sm-fixed {
+        position: fixed;
+    }
+
+    .sm-absolute {
+        position: absolute;
+    }
+
+    .sm-relative {
+        position: relative;
+    }
+
+    .sm-sticky {
+        position: sticky;
+    }
+}
+
+@media only screen and (min-width: $breakpoints-md) {
+    .md-static {
+        position: static;
+    }
+
+    .md-fixed {
+        position: fixed;
+    }
+
+    .md-absolute {
+        position: absolute;
+    }
+
+    .md-relative {
+        position: relative;
+    }
+
+    .md-sticky {
+        position: sticky;
+    }
+}
+
+@media only screen and (min-width: $breakpoints-lg) {
+    .lg-static {
+        position: static;
+    }
+
+    .lg-fixed {
+        position: fixed;
+    }
+
+    .lg-absolute {
+        position: absolute;
+    }
+
+    .lg-relative {
+        position: relative;
+    }
+
+    .lg-sticky {
+        position: sticky;
+    }
+}
+
+@media only screen and (min-width: $breakpoints-xl) {
+    .xl-static {
+        position: static;
+    }
+
+    .xl-fixed {
+        position: fixed;
+    }
+
+    .xl-absolute {
+        position: absolute;
+    }
+
+    .xl-relative {
+        position: relative;
+    }
+
+    .xl-sticky {
+        position: sticky;
+    }
+}
